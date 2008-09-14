@@ -30,7 +30,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%dir %{_mandir}/man7
 # XXX parent dir deps missing
 %{_datadir}/awesome/lib/wicked.lua
 %{_mandir}/man7/wicked.7*
